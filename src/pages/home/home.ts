@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { HistoriaPage } from '../historia/historia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PAppsPage } from '../p-apps/p-apps';
+import { ComunicacionPage } from '../comunicacion/comunicacion';
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,7 @@ export class HomePage {
 historia = HistoriaPage;
 dibujo=DibujoPage;
 papps=PAppsPage;
+comun=ComunicacionPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -26,5 +28,9 @@ papps=PAppsPage;
   clickpapps()
   {
     this.navCtrl.push(this.papps);
+  }
+  clickcomun()
+  {
+    this.navCtrl.push(this.comun);
   }
 }

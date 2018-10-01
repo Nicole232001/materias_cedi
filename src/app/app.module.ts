@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PAppsPage } from '../pages/p-apps/p-apps';
+import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PAppsPage } from '../pages/p-apps/p-apps';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    PAppsPage
+    PAppsPage,
+    ComunicacionPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { PAppsPage } from '../pages/p-apps/p-apps';
     HomePage,
     HistoriaPage,
     DibujoPage,
-    PAppsPage
+    PAppsPage,
+    ComunicacionPage
 
   ],
   providers: [
