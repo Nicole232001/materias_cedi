@@ -7,6 +7,7 @@ import { ComunicacionPage } from '../comunicacion/comunicacion';
 import { RoboticaPage } from '../robotica/robotica';
 import { SaludPage } from '../salud/salud';
 import { MetodoPage } from '../metodo/metodo';
+import { EstaPage } from '../esta/esta';
 
 @Component({
   selector: 'page-home',
@@ -20,6 +21,7 @@ comun=ComunicacionPage;
 robo=RoboticaPage;
 salud=SaludPage;
 metodo=MetodoPage;
+esta=EstaPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -50,5 +52,9 @@ metodo=MetodoPage;
   clickmetodo()
   {
     this.navCtrl.push(this.metodo);
+  }
+  clickesta()
+  {
+    this.navCtrl.push(this.esta);
   }
 }

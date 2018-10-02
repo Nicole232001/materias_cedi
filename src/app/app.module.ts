@@ -13,6 +13,7 @@ import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { SaludPage } from '../pages/salud/salud';
 import { MetodoPage } from '../pages/metodo/metodo';
+import { EstaPage } from '../pages/esta/esta';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MetodoPage } from '../pages/metodo/metodo';
     ComunicacionPage,
     RoboticaPage,
     SaludPage,
-    MetodoPage
+    MetodoPage,
+    EstaPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { MetodoPage } from '../pages/metodo/metodo';
     ComunicacionPage,
     RoboticaPage,
     SaludPage,
-    MetodoPage
+    MetodoPage,
+    EstaPage
 
   ],
   providers: [
