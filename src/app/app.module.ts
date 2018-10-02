@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PAppsPage } from '../pages/p-apps/p-apps';
 import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { SaludPage } from '../pages/salud/salud';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     PAppsPage,
     ComunicacionPage,
-    RoboticaPage
+    RoboticaPage,
+    SaludPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     PAppsPage,
     ComunicacionPage,
-    RoboticaPage
+    RoboticaPage,
+    SaludPage
 
   ],
   providers: [

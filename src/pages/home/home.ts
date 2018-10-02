@@ -5,6 +5,7 @@ import { DibujoPage } from '../dibujo/dibujo';
 import { PAppsPage } from '../p-apps/p-apps';
 import { ComunicacionPage } from '../comunicacion/comunicacion';
 import { RoboticaPage } from '../robotica/robotica';
+import { SaludPage } from '../salud/salud';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +17,7 @@ dibujo=DibujoPage;
 papps=PAppsPage;
 comun=ComunicacionPage;
 robo=RoboticaPage;
+salud=SaludPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -38,5 +40,9 @@ robo=RoboticaPage;
   clickrobotica()
   {
     this.navCtrl.push(this.robo);
+  }
+  clicksalud()
+  {
+    this.navCtrl.push(this.salud);
   }
 }
