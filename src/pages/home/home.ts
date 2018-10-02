@@ -6,6 +6,7 @@ import { PAppsPage } from '../p-apps/p-apps';
 import { ComunicacionPage } from '../comunicacion/comunicacion';
 import { RoboticaPage } from '../robotica/robotica';
 import { SaludPage } from '../salud/salud';
+import { MetodoPage } from '../metodo/metodo';
 
 @Component({
   selector: 'page-home',
@@ -18,6 +19,7 @@ papps=PAppsPage;
 comun=ComunicacionPage;
 robo=RoboticaPage;
 salud=SaludPage;
+metodo=MetodoPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -44,5 +46,9 @@ salud=SaludPage;
   clicksalud()
   {
     this.navCtrl.push(this.salud);
+  }
+  clickmetodo()
+  {
+    this.navCtrl.push(this.metodo);
   }
 }
