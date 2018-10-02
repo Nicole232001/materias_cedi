@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PAppsPage } from '../pages/p-apps/p-apps';
 import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
     HistoriaPage,
     DibujoPage,
     PAppsPage,
-    ComunicacionPage
+    ComunicacionPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
     HistoriaPage,
     DibujoPage,
     PAppsPage,
-    ComunicacionPage
+    ComunicacionPage,
+    RoboticaPage
 
   ],
   providers: [

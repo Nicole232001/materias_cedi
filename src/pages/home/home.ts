@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PAppsPage } from '../p-apps/p-apps';
 import { ComunicacionPage } from '../comunicacion/comunicacion';
+import { RoboticaPage } from '../robotica/robotica';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ historia = HistoriaPage;
 dibujo=DibujoPage;
 papps=PAppsPage;
 comun=ComunicacionPage;
+robo=RoboticaPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -32,5 +34,9 @@ comun=ComunicacionPage;
   clickcomun()
   {
     this.navCtrl.push(this.comun);
+  }
+  clickrobotica()
+  {
+    this.navCtrl.push(this.robo);
   }
 }
